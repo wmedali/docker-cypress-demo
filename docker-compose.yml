@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  cypress_tests:
+    build:
+      context: .
+    volumes:
+      - "./cypress/e2e:/project/cypress/e2e"
